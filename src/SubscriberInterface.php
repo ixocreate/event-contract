@@ -20,5 +20,5 @@ interface SubscriberInterface
      * @param EventInterface $event
      * @return mixed
      */
-    public function handle(EventInterface $event);
+    public function handle(EventInterface $event, string $eventName);
 }
